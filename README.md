@@ -1,4 +1,4 @@
-# Système Monitor
+# Système Monitor - Version CPU
 
 Ce projet est un script Bash permettant de surveiller les ressources système.
 
