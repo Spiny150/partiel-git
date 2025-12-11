@@ -1,0 +1,18 @@
+# --- Fichiers Systèmes (OS) ---
+.DS_Store
+Thumbs.db
+
+# --- Fichiers d'Éditeurs / IDE ---
+# VS Code
+.vscode/
+# IntelliJ / JetBrains
+.idea/
+# Vim swap files
+*.swp
+# Nano backup files
+*~
+
+# --- Fichiers Temporaires du projet ---
+# On ignore les fichiers de logs potentiels si le script évolue
+*.log
+*.tmp
