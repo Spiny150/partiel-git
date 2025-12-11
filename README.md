@@ -1,4 +1,4 @@
-# Système Monitor (Linux)
+# Système Monitor (Linux) - Version Complète
 
 Ce projet est un script Bash permettant de surveiller les ressources système.
 

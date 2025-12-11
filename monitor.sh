@@ -16,10 +16,10 @@ function show_ram {
 
 function show_disk {
     echo "--- DISK ---"
-    # TODO
+    echo "Espace utilisé sur la partition principale : "
+    df -h / | awk 'NR==2 {print "Utilisé: " $3 " / Libre: " $4}'
 }
 
-# Appel des fonctions (à décommenter au fur et à mesure)
 show_cpu
 show_ram
-# show_disk
+show_disk
