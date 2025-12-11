@@ -10,8 +10,7 @@ function show_cpu {
 
 function show_ram {
     echo "--- RAM ---"
-    # BUG INTENTIONNEL : l'option -z n'existe pas
-    free -z 
+    free -h
 }
 
 function show_disk {
